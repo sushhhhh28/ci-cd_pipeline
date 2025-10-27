@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '25' # or your project's version
-        distribution: 'Amazon Corretto'
+        distribution: 'temurin'
 
     - name: Build with Maven
       run: mvn clean package
